@@ -1,0 +1,8 @@
+CXX             = g++
+
+INCDIR          = ./include/
+SRCDIR          = ./src/
+BINDIR          = ./bin/
+
+OK              = \033[30;32mOK\033[m
+FAILED          = \033[30;31mFAILED\033[m

@@ -12,5 +12,5 @@ class TestThread : public Thread {
 		void *run();
 		~TestThread();
 	private:
-		int test_thread;
+		int thread_color;
 };

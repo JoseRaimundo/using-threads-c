@@ -21,6 +21,7 @@ int main(){
         //test_thr[j]->join(); //uncomment this line to see the behavior change of threads 
     }
 
+	/* Check after Thread is done */
     for (int j = 0; j < MAX_THREAD; j++){
         test_thr[j]->join();  
     }
